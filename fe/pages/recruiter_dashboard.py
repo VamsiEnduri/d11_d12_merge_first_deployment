@@ -2,7 +2,9 @@ import streamlit as st
 import requests as r
 
 # b__url = "http://127.0.0.1:8000"
-b_url = "https://d11-d12-merge-first-deployment.onrender.com/"
+# b_url = "https://d11-d12-merge-first-deployment.onrender.com/"
+b_url = st.secrets["b_url"]
+
 
 
 st.title("Recruiter Dashboard")

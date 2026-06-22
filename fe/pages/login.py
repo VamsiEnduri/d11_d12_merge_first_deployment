@@ -7,8 +7,7 @@ ls=LocalStorage()
 
 
 
-b_url = "https://d11-d12-merge-first-deployment.onrender.com/"
-
+b_url = st.secrets["b_url"]
 st.subheader("Login Form")
 
 with st.form("LoginForm"):
