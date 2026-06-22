@@ -1,7 +1,9 @@
 import streamlit as st
 import requests 
 
-b_url = "http://127.0.0.1:8000"
+# b_url = "http://127.0.0.1:8000"
+b_url = "https://d11-d12-merge-first-deployment.onrender.com/"
+
 
 st.subheader("RegisterForm")
 
