@@ -1,5 +1,4 @@
 from fastapi import FastAPI,UploadFile,Form,File
-import streamlit as st
 from db_connection import supabase_client_object
 app=FastAPI()
 
